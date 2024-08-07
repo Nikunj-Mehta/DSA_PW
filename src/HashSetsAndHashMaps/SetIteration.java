@@ -1,8 +1,8 @@
-package Hashmaps;
+package HashSetsAndHashMaps;
 
 import java.util.HashSet;
 
-public class SetIterate {
+public class SetIteration {
     public static void main(String[] args) {
         int[] arr = {4, 9, 2, 5, 4, 8, 1};
         for(int ele : arr)
