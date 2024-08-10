@@ -1,12 +1,11 @@
 package Heaps;
-
 import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class BasicHeapCF {
     public static void main(String[] args) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder()); // For MaxHeap
-//        PriorityQueue<Integer> pq = new PriorityQueue<>(); // For MinHeap
+//        PriorityQueue<Integer> pq = new Priorit y Queue<>(); // For MinHeap
 
         pq.add(2);
         System.out.println(pq + " " + pq.peek());
