@@ -1,5 +1,8 @@
 package SlidingWindow;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class MaximumSumSubarraySizeK {
     public static void main(String[] args) {
         int[] arr = {10, 20, 1, 3, -40, 80, 10};
