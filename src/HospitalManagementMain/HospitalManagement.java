@@ -100,10 +100,10 @@ public class HospitalManagement {
         System.out.print("Enter Patient's ID: ");
         int patientId = sc.nextInt();
 
-        System.out.println("Enter Doctor's ID: ");
+        System.out.print("Enter Doctor's ID: ");
         int doctorId = sc.nextInt();
 
-        System.out.println("Enter Appointment Date(YYYY-MM-DD): ");
+        System.out.print("Enter Appointment Date(YYYY-MM-DD): ");
         String date = sc.next();
 
         Patient patient = findPatientById(patientId);
